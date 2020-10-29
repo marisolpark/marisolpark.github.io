@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+$font1 : 'IBM Plex Mono', 'monospace';
+$font2 : 'IBM Plex Sans', sans-serif;
+@mixin caja ($border,$color, $hight, $width, $radius, $bgcolor) {
+    border: $border, $color;
+    height: $hight;
+    width: $width;
+    border-radius: $radius;
+    background-color: $bgcolor;
+    
+}
+* {
+    box-sizing: border-box;
+  }
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/*SUB-TITULO*/
+.sub-titulo {
+    font-family: $font2;
+    font-size: 36px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 42px;
+    padding-left: 16px;
+}
+/*ESTILOS DE LOS TEXTOS*/
+.text {
+    width: 100%;
+    font-family: $font1;
+    font-size: 14px;
+    font-weight: 300;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*MEDIA*/
+@media screen and (min-width: 800px) {
+    .text {
+        font-family: $font1;
+        font-size: 16px;
+        letter-spacing: 0;
+        line-height: 24px;
+    }
+    /*SUB-TITULO*/
+    .sub-titulo {
+        font-size: 48px;
+        font-weight: 300;
+        letter-spacing: 0;
+        line-height: 42px;
+        padding-left: 160px;
+    }
+}
+
+@import "menu2";
+@import "logo2";
+@import "main2";
+@import "boton2";
+@import "titulo2";
+@import "spotify2";
+@import "dedondevenimos2";
+@import "invitados2";
+@import "temas2";
+@import "novedades2";
+@import "footer2";

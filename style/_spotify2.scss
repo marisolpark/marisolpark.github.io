@@ -1,0 +1,68 @@
+.trapezoind_bg {
+    width: 100%;
+    margin-top: 110px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right,#0000A3, #0000FF);
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    z-index: -3;
+}
+.sub-titulo-spoty {
+    color: white;
+    transform: skewY(6deg);
+    transform-origin: top left;
+}
+.spoty-container {
+    display: flex;
+    flex-direction: column;
+    padding-right:16px;
+    padding-left: 16px;
+    position: relative;
+    top: 40px;
+    transform: skewY(6deg);
+    transform-origin: top left;
+}
+.spoty {
+    width: 100%;
+    height: 232px;
+    border: 0px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+    margin-top: 6px;
+    position: relative;
+    background-color: transparent;
+}
+
+@media screen and (min-width: 800px) {
+    /*Estilos de SPOTIFY*/
+    /* esta cerrado por ahora
+.episodio-divider {
+    background-image: linear-gradient(to right,#0000A3, #0000FF);
+    position: absolute;
+    height: 800px; 
+}
+*/
+.trapezoind_bg {
+    margin-top: 130px;
+}
+.spoty-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 110px;
+    padding-right:100px;
+    position: relative;
+    top: 10px;
+}
+.spoty {
+     width: 45%;
+     height: 232px;
+     border-radius: 10px;
+     margin-bottom: 36px;
+     margin-top: 36px;
+    }
+.spoty-right-margin {
+     margin-right: 72px;
+    }
+/*Fin de estilo SPOTIFY*/
+}

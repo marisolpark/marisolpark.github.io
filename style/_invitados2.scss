@@ -1,0 +1,35 @@
+.invitados-position-container {
+    position: relative;
+    top: -40px;
+}
+.invitados-imgs-contenedor {
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+}
+.invitados-img {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+} 
+
+
+@media screen and (min-width: 800px) {
+    .invitados-position-container {
+        position: relative;
+        top: -40px;
+    }
+    .invitados-imgs-contenedor {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+    .invitados-img {
+        width: 33%;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+    } 
+}

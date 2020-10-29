@@ -1,0 +1,58 @@
+.sub-titulo-temas {
+    position: relative;
+    text-align: center;
+    top: 30px;
+    padding-left: 0px;
+}
+.temas-container {
+    position: relative;
+    top: 70px;
+}
+.iconos {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.iconos-text {
+    font-family: $font2;
+    font-size: 24px;
+    font-weight: 500;
+    color: #060A24;
+    letter-spacing: 0;
+    text-align: center;
+    position: relative;
+    top: -20px;
+    
+}
+
+@media screen and (min-width: 800px) {
+    .sub-titulo-temas {
+        position: relative;
+        top: 50px;
+    }
+    .temas-container {
+         position: relative;
+         top: 100px;
+         padding-left: 80px;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+    }
+    .iconos {
+        widows: 25%;
+    }
+    .iconos-container {
+        padding-right: 90px;
+    }
+    .iconos-text {
+         font-family: $font2;
+         font-size: 20px;
+         font-weight: 500;
+         color: #060A24;
+         letter-spacing: 0;
+         text-align: center;
+        position: relative;
+        top: -20px;
+    }
+}

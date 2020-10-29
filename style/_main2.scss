@@ -1,0 +1,12 @@
+main {
+    padding-top: 74px;
+    padding-right: 0px;
+    padding-left: 0px;
+} 
+@media screen and (min-width: 800px) {
+    main {
+        padding-top: 150px; /*en los 3 estoy usando padding-... pero no puedo usarlo sin padding? estoy esta bien o es que estoy haciendo algo mal?*/
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}
