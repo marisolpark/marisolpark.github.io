@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/CSS" href="styles.css">
     <title>Marisol's Intro to Web Development</title>
 </head>
-<body style="background-color: rgb(203, 177, 252);">
+<body class="indexBackround">
     <main>
-        <h1 style="text-align:center; font-family: supermercado one, cursiva; font-size: 80px; background-color: white; padding: 10px;">Marisol's Website</h1>
-        <p style="font-family: supermercado one, cursiva; font-size: 35px; text-align: center;">Welcome to my Intro to Web Development Website :)</p>
-        <div style="display:flex; justify-content:center; align-items:center; margin-bottom: 50px; margin-top: 50px;">
-            <img style="width: 30%" src="bobsponge.gif"> <!--Why does it not work if I dont put the div? I tried putting the styles in the img brakets but it woldnt really work-->
+        <h1 class="indexTitle">Marisol's W<a href="surprises/egg1.html" class="easterEgg1">e</a>bsite</h1>
+        <h3>Welcome to my Intro to Web Development Website :)</h3>
+        <div class="imgDiv1">
+            <img class="bobimg" src="images/bobsponge.gif"> <!--Why does it not work if I dont put the div? I tried putting the styles in the img brakets but it woldnt really work-->
         </div>
-        <p style="font-family: supermercado one, cursiva; font-size: 30px; text-align: center;">Here you can find the content of:</p>
-        <p style="font-family: supermercado one, cursiva; font-size: 30px; text-align: center;"><a href="responses.html">Response to readings</a> </p>
+    <!-- This is the section where you choose the links to redirect -->
+        <h4>Here you can find the content of:</h4>
+        <h4><a href="responses.html" class="hyperLink">Response to readings</a></h4>
     </main>
 </body>
 </html>

@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+/* ------THIS AFFECTS EVERYTHING GIN GENERAL------- */
+h1{ /*this is what all title AKA h1 text will be like*/
+    text-align:center; 
+    font-family: supermercado one, cursiva; 
+    font-size: 80px; 
+}
+
+h3{ /*this is the style of the sub-titles*/
+    text-align: center;
+    font-family: supermercado one, cursiva; 
+    font-size: 35px; 
+}
+
+h4{ /*this is the style of the sub-sub-titles*/
+    text-align: center;
+    font-family: supermercado one, cursiva;
+    font-size: 30px; 
+}
+
+.hyperLink{/*the stylization of the hyperlinks*/
+    text-decoration: none;
+    color: black;
+}
+.hyperLink:hover{
+    text-decoration: line-through;
+    color: rgba(80, 83, 235, 0.856);
+    font-size: 50px;
+}
+
+
+/* -------THIS AFFECTS ONLY THE INDEX PAGE-------  */
+.indexBackround{
+    background-color: rgb(184, 234, 247);
+}
+
+.indexTitle{ /*the backround color for the title in the index page*/
+    background-color: rgb(53, 211, 250);
+}
+
+.imgDiv1{ /*this is the placement of the index page bobsponge img*/
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    margin-bottom: 50px; 
+    margin-top: 50px;
+}
+.imgDiv1:hover{
+    background-image: url(images/error.gif);
+}
+
+.bobimg{ /*took this animation from mozilla developer: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations*/
+    animation-name: slide;
+    animation-duration: 0.7s;
+    width: 30%
+}
+
+@keyframes slide {
+    from {
+      margin-left: 100%;
+      float: left;
+    /* width: 300%; */
+    }
+  
+    to {
+      margin-right: 0%;
+      float: right;
+      /* width: 100%; */
+    }
+  }
+
+.easterEgg1{
+    text-decoration: none;
+    color: black;
+}
+.easterEgg1:hover{/*the 1st easter egg*/
+    color: rgb(53, 211, 250);
+}
+.memeImg1{
+    width: 35%;
+    padding-top: 30px;
+}
+.divMemeImg1{
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+}
+
+
+/* -------THIS AFFECTS ONLY THE RESPONSES PAGE------- */
+.imgDiv2{ /*this is the placement of the responses page plant img*/
+    display:flex; 
+    justify-content:center; 
+    align-items:center; 
+    margin-bottom: 90px;
+}
+
+.plantimg{ 
+    width: 30%
+}
+
+.responsesBackground{
+    background-image: linear-gradient(rgb(250, 245, 177), rgb(155, 240, 76));
+}
+
+
+/* -------THIS AFFECTS ONLY THE RESPONSE1 PAGE------- */
+.text1{/*this is the style of the text of the response1*/
+    font-family:monospace; 
+    margin-left: 40px; 
+    margin-right: 40px;
+}
+
+.response1Bachground{
+    background-color: rgb(134, 231, 96);
+}
+
+
+/* -------THIS AFFECTS ONLY THE RESPONSE2 PAGE------- */
+
+.response2Background{
+    background-color: #faf5b1;
+}
+
+.text2{/*this is the style of the text of the response1*/
+    font-family:monospace; 
+    margin-left: 40px; 
+    margin-right: 40px;
+}
