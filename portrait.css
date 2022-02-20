@@ -1,0 +1,60 @@
+.head{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(255, 229, 195);
+    border-radius: 350px;
+    position: relative;
+    left: 440px;
+    display: flex;
+}
+
+.eyes{
+    width: 20%;
+    height: 80px;
+    background-color: rgb(122, 95, 4);
+    border-radius: 350px;
+    position: relative;
+    top: 140px;
+    left: 70px;
+
+}
+.eye2{
+    position: relative;
+    left: 150px;
+}
+
+.nose{ /*I got the code from https://stackoverflow.com/questions/7073484/how-do-css-triangles-work*/
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 90px solid rgb(247, 183, 100);
+    position: relative;
+    top: 220px;
+}
+
+.mouth{/*I got this from https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only*/
+    width: 200px;
+    height: 30px; /* as the half of the width */
+    background-color: rgb(255, 0, 76);
+    border-top-left-radius: 150px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 150px; /* 100px of height + 10px of border */
+    border-bottom: 0;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 360px;
+    left: 90px;
+}
+
+.hat{/*I got this from https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only*/
+    width: 30%;
+    height: 180px; /* as the half of the width */
+    background-color: rgb(172, 218, 49);
+    border-top-left-radius: 200px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 200px; /* 100px of height + 10px of border */
+    border-bottom: 0;
+    position: absolute;
+    z-index: 2;
+    top: 160px;
+    left: 440px;
+}
