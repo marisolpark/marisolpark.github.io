@@ -1,0 +1,138 @@
+/* ---------------------------------------GENERAL STYLES--------------------------------------- */
+body{
+    display: flex;
+    justify-content: center;
+}
+ main{
+     width: 70%;
+     height: 100%;
+     background-image: linear-gradient(black, rgb(44, 64, 243), rgb(185, 220, 252));
+ }
+
+h1{
+    /* color: rgb(170, 214, 255); */
+    color:rgb(170, 214, 255);
+    font-family: 'Pacifico', cursive;
+    font-size: 250%;
+    text-align: center;
+}
+
+h2{
+    color:rgb(83, 167, 247);
+    font-family: 'Pacifico', cursive;
+    font-size: 250%;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 200%;
+}
+
+p{
+    color: white;
+    font-family:'Syne Mono', monospace;
+    padding: 30px;
+    font-size: 150%;
+}
+
+/* ---------------------------------------SPECIFIC STYLES--------------------------------------- */
+/* family picture styles */
+.topImg{
+    /* height: 10%; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.amyAlone{
+    position: relative;
+    animation-name: leftRight;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes leftRight {
+    0%{
+        left: -5%;
+    }
+    100%{
+        left: 30%;
+    }
+}
+ 
+
+@keyframes shake { /* I made the animation by following this tutorial https://www.youtube.com/watch?v=DZYcidT2T14 */
+     0%{
+         transform: rotate(0, 0);
+     } 
+
+     25%{
+        transform: rotate(20, 0);
+    } 
+
+    50%{
+        transform: rotate(40, 0);
+    } 
+
+    75%{
+        transform: rotate(20, 0);
+    } 
+
+    100%{
+        transform: rotate(0, 0);
+    } 
+}
+
+.spirit_fingers_position{
+    display: flex;
+    justify-content: center;
+}
+
+.spirit_fingers{
+    width: 90%;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.amy_final{
+   padding-top: 100px;
+   /* padding-left: 100px; */
+    float: right;
+}
+
+/* .characters{
+    display: inline;
+    justify-content: center;
+}
+
+.blueImg{
+    width: 30%;
+}
+
+.mintImg{
+    width: 30%;
+}
+
+.khakiImg{
+    width: 15%;
+}
+
+.blackImg{
+    width: 25%;
+}
+
+.pinkImg{
+    width: 30%;
+}
+
+.brownImg{
+    width: 30%;
+}
+
+.redImg{
+    width: 25%;
+} */
