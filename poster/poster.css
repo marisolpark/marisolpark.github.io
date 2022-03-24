@@ -66,23 +66,16 @@ p{
 
 @keyframes shake { /* I made the animation by following this tutorial https://www.youtube.com/watch?v=DZYcidT2T14 */
      0%{
-         transform: rotate(0, 0);
+        width: 80%;
      } 
 
-     25%{
-        transform: rotate(20, 0);
-    } 
 
     50%{
-        transform: rotate(40, 0);
-    } 
-
-    75%{
-        transform: rotate(20, 0);
+        width: 100%;
     } 
 
     100%{
-        transform: rotate(0, 0);
+        width: 80%;
     } 
 }
 
@@ -92,7 +85,7 @@ p{
 }
 
 .spirit_fingers{
-    width: 90%;
+    width: 80%;
     animation-name: shake;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -104,35 +97,4 @@ p{
     float: right;
 }
 
-/* .characters{
-    display: inline;
-    justify-content: center;
-}
 
-.blueImg{
-    width: 30%;
-}
-
-.mintImg{
-    width: 30%;
-}
-
-.khakiImg{
-    width: 15%;
-}
-
-.blackImg{
-    width: 25%;
-}
-
-.pinkImg{
-    width: 30%;
-}
-
-.brownImg{
-    width: 30%;
-}
-
-.redImg{
-    width: 25%;
-} */
