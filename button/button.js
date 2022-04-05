@@ -25,9 +25,15 @@ body.appendChild(button);
 
 
 
+
 button.addEventListener("click", function(){
    alert("was click");
-    // animate();
+    // if(body.style.backgroundColor="pink"){
+    //     body.style.backgroundColor="black";
+    // } 
+    // if(body.style.backgroundColor="black"){
+    //     body.style.backgroundColor="pink";
+    // } 
     body.style.backgroundColor="pink";
 });
 
