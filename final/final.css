@@ -1,0 +1,353 @@
+body{
+    background-color: #98ec81ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 400%;
+    text-align: center;
+    position: relative;
+    /* animation: animation1 2s infinite; */
+}
+
+p{
+    font-family: 'Fredoka One', cursive;
+}
+
+/* styles of the animation preview screen */
+.animationDivContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.animationDiv{
+    background-color: white;
+    width: 80%;
+    border-radius: 20px;
+    border: solid 5px #FFFC92;;
+    height: 300px;
+
+}
+
+.doneButton{
+    float: right;
+    font-size: 90%;
+    font-family: 'Fredoka One', cursive;
+    background-color: #FFFC92;
+    border: 3px solid #c6fcb7ff;
+    border-radius: 3em;
+    margin: 10px;
+}
+.doneButton:hover{
+    background-color: rgb(219, 111, 255);
+    border: 4px solid #FFFC92;
+    border-radius: 40px;
+}
+
+.propContainer{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.animationText{
+    text-align: center;
+    font-size: 550%;
+}
+
+/* styles of the text input selection */
+.textDiv{
+    display: flex;
+    padding-bottom: 30px;
+    
+}
+.textText{
+    padding-right: 10px;
+}
+.textInput{
+    border-radius: 20px;
+    border: solid 5px #FFFC92;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+}
+
+/* styles of the text animation type selection */
+.typeDiv{
+    display: flex;
+    padding-bottom: 30px;
+}
+.typeButtonsContainer{
+    padding-left: 10px;
+     width: 30%;
+     display: flex;
+     justify-content: space-between;
+ }
+.typeButtons{
+     font-size: 130%;
+     font-family: 'Fredoka One', cursive;
+     background-color: #FFFC92;
+     border: 3px solid #c6fcb7ff;
+     border-radius: 30px;
+     margin: 10px;
+     padding-top: 6px;
+     padding-bottom: 6px;
+     padding-left: 15px;
+     padding-right: 15px;
+ }
+ .typeButtons:hover{
+    background-color: rgb(219, 111, 255);
+    border: 4px solid #FFFC92;
+    border-radius: 40px;
+ }
+
+/* styles of the text color selection */
+.colorDiv{
+    display: flex;
+    padding-bottom: 30px;
+}
+.colorInput{
+    border-radius: 20px;
+    border: solid 5px #FFFC92;
+    height: 50px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+
+}
+
+.colorText{
+    padding-right: 10px;
+}
+
+/* styles of the text font selection */
+.fontDiv{
+    display: flex;
+    padding-bottom: 30px;
+}
+.fontButtonsContainer{
+    padding-left: 10px;
+}
+.fontButtons{
+    font-size: 120%;
+    background-color: #FFFC92;
+    border: 3px solid #c6fcb7ff;
+    border-radius: 30px;
+    margin: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.fontButtons:hover{
+    background-color: rgb(219, 111, 255);
+    border: 4px solid #FFFC92;
+    border-radius: 40px;
+}
+
+.fredokaOne{
+    font-family: 'Fredoka One', cursive;
+}
+.waterBrush{
+    font-family: 'Water Brush', cursive;
+}
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+.patrickHand{
+    font-family: 'Patrick Hand', cursive;
+}
+.pressStart2P{
+    font-family: 'Press Start 2P', cursive;
+}
+
+/* finish button */
+.finishButton{
+    float: right;
+    font-size: 150%;
+    font-family: 'Fredoka One', cursive;
+    background-color: #FFFC92;
+    border: 3px solid #c6fcb7ff;
+    border-radius: 3em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.finishButton:hover{
+    background-color: rgb(219, 111, 255);
+    border: 10px solid #FFFC92;
+    border-radius: 40px;
+}
+
+/* The Animations */
+
+@keyframes animation1 {
+    10%{
+        margin-left: -20px;
+        /* font-size: 400%; */
+    }
+    20%{
+        margin-right: 20px;
+        font-size: 400%;
+    }
+    30%{
+        margin-left: -30px;
+        /* font-size: 410%; */
+    }
+    40%{
+        margin-right: 30px;
+        /* font-size: 420%; */
+    }
+    50%{
+        margin-left: -40px;
+        /* font-size: 430%; */
+    }
+    60%{
+        margin-right: 40px;
+        /* font-size: 420%; */
+    }
+    70%{
+        margin-left: -30px;
+        /* font-size: 410%; */
+    }
+    80%{
+        margin-right: 30px;
+        /* font-size: 420%; */
+    }
+    90%{
+        margin-left: -20px;
+        /* font-size: 410%; */
+    }
+    100%{
+        margin-left:0px;
+        /* font-size: 400%;s */
+    }
+}
+
+@keyframes animation2 {
+    10%{
+        font-size: 600%;
+    }
+    20%{
+        font-size: 650%;
+    }
+    30%{
+        font-size: 700%;
+    }
+    40%{
+        font-size: 750%;
+    }
+    50%{
+        font-size: 800%;
+    }
+    60%{
+        font-size: 850%;
+    }
+    70%{
+        font-size: 750%;
+    }
+    80%{
+        font-size: 700%;
+    }
+    90%{
+        font-size: 650%;
+    }
+    100%{
+        font-size: 600%;
+    } 
+}
+
+@keyframes animation3 {
+    10%{
+        transform: rotate(10deg);
+    }
+    20%{
+        transform: rotate(20deg);
+    }
+    30%{
+        transform: rotate(30deg);
+    }
+    40%{
+        transform: rotate(20deg);
+    }
+    50%{
+        transform: rotate(10deg);
+    }
+    60%{
+        transform: rotate(0deg);
+    }
+    70%{
+        transform: rotate(-10deg);
+    }
+    80%{
+        transform: rotate(-20deg);
+    }
+    90%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animation4 {
+    10%{
+        margin-top: -20px;
+    }
+    20%{
+        margin-bottom: 20px;
+    }
+    30%{
+        margin-top: -30px;
+    }
+    40%{
+        margin-bottom: 30px;
+    }
+    50%{
+        margin-top: -40px;
+    }
+    60%{
+        margin-bottom: 40px;
+    }
+    70%{
+        margin-top: -30px;
+    }
+    80%{
+        margin-bottom: 30px;
+    }
+    90%{
+        margin-top: -20px;
+    }
+    100%{
+        margin-top: -10px;
+    }
+}
+
+
+/* this are the styles for the code pop up screen */
+.codeScreen{
+    width: 50%;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    background-color: rgb(124, 199, 103);
+    border: 5px solid #e3df71;
+    border-radius: 2em;
+    display: none;
+}
+
+.exitBtn{
+    float: right;
+    font-size: 100%;
+    font-family: 'Fredoka One', cursive;
+    background-color: #FFFC92;
+    border: 3px solid #c6fcb7ff;
+    border-radius: 3em;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}

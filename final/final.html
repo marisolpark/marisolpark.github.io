@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-family: 'Fredoka One', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-family: 'Water Brush', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-family: 'Righteous', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-family: 'Patrick Hand', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!--font-family: 'Press Start 2P', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/CSS" href="final.css">
+    <script src="final.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Web Development Final Project</title>
+</head>
+<body>
+    <main id="mainP">
+        <h1>Text Animation Maker</h1>
+        <div class="animationDivContainer"> <!--This is the div that would show the animation changing in real time-->
+            <div class="animationDiv" id="animationDiv">
+                <p class="animationText" id="animationText"></p>
+            </div>
+        </div>
+       <div class="propContainer"><!--This is the overall container that hass all the different properties inside of it-->
+        <div class="textDiv"> <!--this is where a person would inpt their text for the animation -->
+            <p class="textText">Text:</p>
+            <input type="text" placeholder="Put anything" class="textInput" id="textInput">
+            <button class="doneButton" onclick="takeInput()" id="textDoneButton">Done</button>
+        </div>
+        <div class="typeDiv"><!--this is where a person would choose the kind of animation they want -->
+            <p>Animation type:</p>
+            <div class="typeButtonsContainer">
+                <button class="typeButtons" id="animation1Button">1</button> <!--Button that trigers animation1-->
+                <button class="typeButtons" id="animation2Button">2</button> <!--Button that trigers animation2-->
+                <button class="typeButtons" id="animation3Button">3</button> <!--Button that trigers animation3-->
+                <button class="typeButtons" id="animation4Button">4</button> <!--Button that trigers animation4-->
+                <button class="typeButtons" id="animationXButton">X</button> <!--Button that cancels animations-->
+            </div>
+        </div>
+        <div class="colorDiv"> <!--this is where a person would input the color of animation that they want -->
+            <p class="colorText">Color:</p>
+            <div>
+                <input class="colorInput" id="colorBg" placeholder="Background" type="color">
+                <input class="colorInput" id="colorFill" placeholder="Fill" type="color">
+                <input class="colorInput" id="colorBor" placeholder="Border"  type="color">
+            </div>
+            <button class="doneButton" id="colorDoneButton">Done</button>
+        </div>
+        <div class="fontDiv">  <!--this is where a person chooses the font of animation that they want -->
+            <p>Font Type:</p>
+            <div class="fontButtonsContainer">
+                <button class="fontButtons fredokaOne" id="fredokaOne">Fredoka One</button>
+                <button class="fontButtons waterBrush" id="waterBrush">Water Brush</button>
+                <button class="fontButtons righteous" id="righteous">Righteous</button>
+                <button class="fontButtons patrickHand" id="patrickHand">Patrick Hand</button>
+                <button class="fontButtons pressStart2P" id="pressStart2P">Press Start 2P</button>
+            </div>
+        </div>
+       </div>
+       <div class="finishButtonFlex">
+        <button class="finishButton" id="finishButton">Give code for the animation</button> <!--button that would show you the code-->
+       </div>
+    </main>
+    <div class="codeScreen" id="codeScreen">
+        <button class="exitBtn" id="exitBtn">X</button>
+        <h6>HTML:</h6>
+        <p class="theHTML" id="theHTML"></p>
+    </br>
+        <h6>CSS:</h6>
+        <p></p>
+    </div>
+</body>
+</html>
