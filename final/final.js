@@ -9,7 +9,7 @@ function takeInput(){ //This is the function which takes the text input and puts
 }
 
 
-// This is the section where I take the color inputs and make the color of the texta nimation change --> I followed this tutorial: https://www.youtube.com/watch?v=eIw-Nou9L9E
+// This is the section where I take the color inputs and make the color of the text animation change --> I followed this tutorial: https://www.youtube.com/watch?v=eIw-Nou9L9E
 var Bgcolor = document.querySelector('#colorBg');
 var Fill1 = document.querySelector('#colorFill');
 var Border1 = document.querySelector('#colorBor');
@@ -77,20 +77,3 @@ animationbtnX.addEventListener("click", ()=>{
 
 
 
-// this in the section that mekes it so when the "give the code" button is preassed a pop-up like windo appears and gives the code of the html and the css animation and styles
-var finishButton = document.getElementById("finishButton");
-var main = document.getElementById("mainP");
-var codeScreen = document.getElementById("codeScreen");
-var exit= document.getElementById("exitBtn");
-var theHTML = document.getElementById("theHTML");
-
-finishButton.addEventListener("click", ()=>{
-    codeScreen.style.display="block";
-});
-
-
-exit.addEventListener("click", ()=>{
-    codeScreen.style.display="none";
-});
-
-// https://zellwk.com/blog/css-values-in-js/
